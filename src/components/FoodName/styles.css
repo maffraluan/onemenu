@@ -1,0 +1,26 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 0 3rem;
+}
+
+.title h2 {
+    font: 500 2rem Roboto;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 10px;
+}
+
+.description p {
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: grey;
+    font-family: Roboto;
+}

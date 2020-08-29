@@ -1,0 +1,17 @@
+.main-content {
+    max-width: 398px;
+    margin: 0 auto;
+}
+
+.alteration {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.alteration span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: Roboto;
+    text-decoration: underline;
+}

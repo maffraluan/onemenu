@@ -1,0 +1,180 @@
+/* MODAL STYLES  */
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    margin: 4rem 2rem;
+    padding: 4rem 3rem;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #cecece;
+}
+
+.info-icon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.info-icon h2 {
+    font: 500 2rem Roboto;
+}
+
+/* INGREDIENT STYLES  */
+
+.ingredients-title {
+    margin-top: 3rem;
+}
+
+.ingredients-title h2 {
+    font: 500 2rem Roboto;
+}
+
+.ingredients-description {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.6rem;
+}
+
+.ingredients-description span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: grey;
+    font-family: Roboto;
+}
+
+/* TABLE NUTRI STYLES  */
+
+.tablenutri-title {
+    margin-top: 3rem;
+}
+
+.tablenutri-title h2 {
+    font: 500 2rem Roboto;
+}
+
+.tablenutri-title span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: grey;
+    font-family: Roboto;
+}
+
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.circle-progress {
+    display: flex;
+    max-width: 90px;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.circle-progress strong {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: grey;
+    font-family: Roboto;
+}
+
+.circle-progress span {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: grey;
+    font-family: Roboto;
+}
+
+.circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-top-width: 5px solid;
+    border: 5px solid aqua;
+}
+
+.circles span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: grey;
+    font-family: Roboto;
+}
+
+.progress-input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-input label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000;
+    font-family: Roboto;
+    margin-right: 10px;
+}
+
+.progress-input span {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: grey;
+    font-family: Roboto;
+}
+
+.progress-input strong {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.label-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.progress {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+
+progress {
+    border-radius: 7px;
+    width: 100%;
+    height: 5px;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 5px;
+    background-color: #cecece
+}
+
+progress::-webkit-progress-value {
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+/*  TEXT INFO COMPONENT STYLE  */
+
+.text-info {
+    margin-top: 20px;
+}
+
+.text-info p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: grey;
+    font-family: Roboto;
+}

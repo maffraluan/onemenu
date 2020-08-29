@@ -1,0 +1,36 @@
+.allergic-title {
+    margin-top: 3rem;
+    padding: 0 3rem;
+}
+.allergic-title h2 {
+    font: 500 2rem Roboto;
+}
+
+.allergic-icons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+}
+
+.allergic-icons img {
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.allergic-description {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.6rem;
+    padding-left: 3rem;
+    padding-right: 10px;
+}
+.allergic-description span {
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: grey;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
